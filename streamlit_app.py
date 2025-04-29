@@ -15,6 +15,16 @@ model = joblib.load("diabetes_model.pkl")
 
 st.set_page_config(page_title="Diabetes Prediction Model",layout="centered")
 
+st.markdown(
+    """
+    <style>
+    #MainMenu {visibility: hidden;}
+    footer {visibility: hidden;}
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
 st.title("Diabetes Prediction model")
 
 # input features
