@@ -13,7 +13,7 @@ import streamlit as st
 # Loading the model
 model = joblib.load("diabetes_model.pkl")
 
-st.set_page_config(page_title="Diabetes Prediction Model",layout="centered")
+st.set_page_config(page_title="Diabetes Prediction Model",layout="centered", initial_sidebar_state="expanded")
 
 st.markdown(
     """
