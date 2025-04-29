@@ -64,7 +64,7 @@ The table below shows the first 10 samples of the data.
 
 This data contains some missing values in some of the columns. The table below shows the columns that have missing data, the amount of missing data and the percentage of missing values in the data
 
-![missing data table](Assets\Missing_data.png)
+![missing data table](Assets/Missing_data.png)
 
 The missing data was imputed using the **KnnImputer**. This method gets 4 data points near the missing data and then calculates their mean to impute the missing data. This avoid filling the missing data with a constant value.
 
