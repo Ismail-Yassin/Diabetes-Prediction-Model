@@ -76,7 +76,7 @@ This dataset has no duplicated samples.
 
 Thsi data has alot of missing values. Almost all the columns in contain outliers as seen in the image below;
 
-![outlier data](Assets\boxplots.png)
+![outlier data](Assets/boxplots.png)
 
 The columns containing the most number of outliers are the **totChol** and **glucose** columns. The outliers in this data were not removed because the data is imbalanced and the minority class contained most of the outlier samples.
 
@@ -123,7 +123,7 @@ plt.title("The distribution of patients")
 plt.show()
 ```
 
-![Distribution of the data](Assets\piechart_distribution_of_data.png)
+![Distribution of the data](Assets/piechart_distribution_of_data.png)
 
 There is no multicollinearity in the data. The threshold used was correlation coefficient of **0.8** and the correlation between the columns did not exceed the threshold value.
 
@@ -135,7 +135,7 @@ sns.heatmap(data=corr, annot=True)
 plt.show()
 ```
 
-![Heatmap](Assets\pearson_correlation.png)
+![Heatmap](Assets/pearson_correlation.png)
 
 The correlation of the feature columns with the target vector. The most correlated feature is **glucose** and the least correlated non negative number is **prevalentStroke**. The highest negative correlation is **currentSmoker**
 
@@ -157,7 +157,7 @@ plt.show()
 
 ```
 
-![Correlation with target vector](Assets\correlation_with_target_vector.png)
+![Correlation with target vector](Assets/correlation_with_target_vector.png)
 
 **2. Data preparation for Machine Learning.**
 
@@ -177,7 +177,7 @@ chosen_model.fit(X_training_partition, y_training_partition)
 
 The table below shows the performance of the model using metrics like accuracy score, precision, Recall, and F1 score
 
-![model performance](Assets\model_performance.png)
+![model performance](Assets/model_performance.png)
 
 The chart below shows the feature importance and the odds ratios used too predict each feature. For example;
 
@@ -187,7 +187,7 @@ The chart below shows the feature importance and the odds ratios used too predic
 
 - Odds ratios that are close or equal to 1 have no big effect on the target, odd ratios that are below 1 have decreasing effect on the target vector while the odds that are greater than 1 have an increasing chance of predicting the chance of having diabetes.
 
-![Model performance with odds ratios](Assets\Model_performance_odds_ratios.png)
+![Model performance with odds ratios](Assets/Model_performance_odds_ratios.png)
 
 **4. Model deployment.**
 
