@@ -56,7 +56,7 @@ This dataset contains 4240 samples with 16 columns
 
 The table below shows the first 10 samples of the data.
 
-![Overview of the data](Assets\Data_overview.png)
+![Overview of the data](https://github.com/Ismail-Yassin/Diabetes-Prediction-Model/blob/054f764030ecfd3183e9b5605d4acd68bfbe6214/Assets/Data_overview.png)
 
 ## Methodology
 
