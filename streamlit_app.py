@@ -48,6 +48,23 @@ hide_streamlit_style = """
                 """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
+# Background image using CSS
+st.markdown(
+    f"""
+    <style>
+    .stApp {{
+        background-image: url("Assets\backgound_image.jpeg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }}
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+
 st.title("Early Diabetes Prediction")
 
 # input features
