@@ -7,11 +7,10 @@ Table of Contents
 3. [Significance](#significance)
 4. [Frameworks](#frameworks)
 5. [Dataset](#dataset-used)
-6. [Methodology](#methodology)  
+6. [Methodology](#methodology)
 7. [Results](#results)
 8. [Model_Limitations](#model-limitations)
-9. [Future_improvements](#Future_improvements)
-10.[Conclusion](#conclusion)
+9. [Future_improvements](#Future_improvements) 10.[Conclusion](#conclusion)
 
 ## Introduction
 
@@ -106,13 +105,13 @@ def clean_data(filepath):
 
   return df
 
-  ```
+```
 
 ## Results
 
 **1. Exploratory Data Analysis (EDA).**
 
-This data is not equally distributed with the target vector with  the majority class having **97.4%** and the minority class having **2.6%** as shown by pie chart below;
+This data is not equally distributed with the target vector with the majority class having **97.4%** and the minority class having **2.6%** as shown by pie chart below;
 
 The source code for distribution is below;
 
@@ -192,8 +191,10 @@ The chart below shows the feature importance and the odds ratios used too predic
 **4. Model deployment.**
 
 The model was deployed using streamlit for interacting with the model.
+
 Website Link: https://diabetes-prediction-256.streamlit.app/
 
+![website](Assets\website_deployment.png)
 
 ## Model-Limitations
 
