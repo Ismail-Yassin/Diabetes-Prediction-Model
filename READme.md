@@ -192,6 +192,8 @@ The chart below shows the feature importance and the odds ratios used too predic
 **4. Model deployment.**
 
 The model was deployed using streamlit for interacting with the model.
+Website Link: https://diabetes-prediction-256.streamlit.app/
+
 
 ## Model-Limitations
 
