@@ -194,7 +194,7 @@ The model was deployed using streamlit for interacting with the model.
 
 Website Link: https://diabetes-prediction-256.streamlit.app/
 
-![website](Assets\website_deployment.png)
+![website](Assets/website_deployment.png)
 
 ## Model-Limitations
 
